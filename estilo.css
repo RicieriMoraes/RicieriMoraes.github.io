@@ -1,0 +1,154 @@
+/* ------------------------------------- */
+
+
+/* ----------Author: Weslao ------------ */
+
+
+/* ------------------------------------- */
+
+
+/* Layout */
+
+.body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+}
+
+
+/* navegação */
+
+.navegacao {
+    background-color: rgba(255, 91, 41, 0.8);
+    height: 60px;
+    width: 100%;
+    z-index: 999;
+}
+
+.navegacao .content1 .logo {
+    color: white;
+    font-size: 16px;
+}
+
+.navegacao .content1 .logo:hover {
+    color: white;
+}
+
+.navegacao .content1 .nave-itens {
+    background-color: rgba(255, 91, 41, 0.3);
+}
+
+.navegacao .content1 .nave-itens ul li a {
+    color: white;
+    margin: 0 5px;
+    padding: 20px 15px;
+    font-size: 14px;
+}
+
+.navegacao .content1 .nave-itens ul li a:hover {
+    color: #f4511e;
+    background-color: white;
+}
+
+
+/* sectio 1 */
+
+.home {
+    background: url('img/ArteHome.jpeg');
+    background-attachment: fixed;
+    overflow-x: hidden;
+    height: 500px;
+    text-align: justify;
+}
+
+@media screen and (max-width: 768px) {
+    .home {
+        background: url('img/ArteHomeM.jpg');
+        background-attachment: fixed;
+        overflow-x: hidden;
+        height: 500px;
+    }
+}
+
+
+/* section 2 */
+
+.content {
+    padding: 40px 20px;
+    text-align: justify;
+}
+
+.content h3 {
+    border-left: 4px solid black;
+    padding: 5px;
+    color: #f4511e;
+}
+
+.content p {
+    padding: 10px 40px;
+}
+
+
+/* section 3 */
+
+.content-2 {
+    padding: 40px 20px;
+    text-align: justify;
+}
+
+@media screen and (max-width: 768px) {
+    .content-2 .img-curiosidade img {
+        width: 100%;
+    }
+}
+
+.content-2 h3 {
+    border-left: 4px solid black;
+    padding: 5px;
+    color: #f4511e;
+}
+
+.content-2 p {
+    padding: 10px 40px;
+}
+
+.content-2 h4 {
+    padding: 40px;
+    color: #f4511e;
+}
+
+.content-2 .p-1 p {
+    padding: 30px 40px;
+}
+
+
+/* section 4 */
+
+.content-3 {
+    padding: 40px 20px;
+    text-align: justify;
+}
+
+.content-3 h3 {
+    border-left: 4px solid black;
+    padding: 5px;
+    color: #f4511e;
+}
+
+.content-3 p {
+    padding: 10px 40px;
+}
+
+.content-3 h4 {
+    padding: 40px;
+    color: #f4511e;
+}
+
+
+/* section 5 */
+
+@media screen and (min-width: 768px) {
+    .carousel {
+        margin: 50px auto;
+        width: 65%;
+    }
+}
